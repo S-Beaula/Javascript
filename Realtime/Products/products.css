@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+.obj-width{
+    max-width: 1500px;
+    margin: auto;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 10px black;
+    align-items: center;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px blueviolet;
+    color: azure;
+}
+#search-container{
+    max-width: 400px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: larger;
+}
+#search-button{
+    font-size: 1rem;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 20px;
+    color: white;
+    margin-left:10px;
+
+}
+#container{
+    padding: 30px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   
+}
+.card{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    border: 3px solid green;
+    padding: 20px;
+    margin:20px;
+    cursor: pointer;
+    border-radius: 10%;
+    align-items: flex-start;
+}
+.card:hover{
+    box-shadow: 8px 8px 8px 8px gray;
+}
+
+.card> #title{
+font-size: 1.5rem;
+}
+.card img{
+    width: 80%;
+    height: 500px;
+    /* object-fit: cover; */
+}
+.card> #category{
+    font-size: 1.5rem;
+}
+.card > #price{
+    font-size: 1.1rem;
+    margin-top: 7px;
+    display: flex;
+    align-content: flex-start;
+}
+.card > #rate{
+    font-weight: bold;
+    margin-top: 7px;
+}
+#search-button:active{
+    background-color: greenyellow;
+}
+.card button{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7px 10px;
+    border-radius: 10px;
+}
+
+#categories-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.category-section {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.category-section h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.product-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+

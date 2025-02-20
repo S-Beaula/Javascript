@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url("https://images.pexels.com/photos/4386235/pexels-photo-4386235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+#display{
+    font-size: 1.1rem;
+    margin-top: 15%;
+    width: 70%;
+    
+}
+#Count{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: brown;
+}
+#quote{
+    color:darkred
+}
+#time{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    
+}
+#time p{
+    font-size: larger;
+    font-weight: bold;
+   
+}
+#time input{
+    border: none;
+   
+}
